@@ -1,7 +1,7 @@
 [b][size=5]Shortest Trip To Earth - Clear Unaffordable Repair[/size][/b] 
  
  
-Adds the ability to right click the "Unmark all damage" damage to remove only the repairs that are unaffordable.
+Adds the ability to right click the "Unmark all damage" button to remove only the repairs that are unaffordable.
  
 The priority of repairs are:  Critical, non crew repairable, crew repairable.
  
@@ -32,19 +32,22 @@ This section covers how to install the BepInEx mod loader and the mod itself.
  
 If BepInEx has already been installed, skip to the [font=Courier New]Mod Install[/font] section.
 [list]
-[*]
-Download BepInEx from [url=https://github.com/BepInEx/BepInEx/releases/download/v5.4.23.2/BepInEx_win_x64_5.4.23.2.zip]https://github.com/BepInEx/BepInEx/releases/download/v5.4.23.2/BepInEx_win_x64_5.4.23.2.zip[/url]
-[*]
-Extract the contents of the BepInEx zip file into the game's directory:
+[*]Download BepInEx from [url=https://github.com/BepInEx/BepInEx/releases/download/v5.4.23.2/BepInEx_win_x64_5.4.23.2.zip]https://github.com/BepInEx/BepInEx/releases/download/v5.4.23.2/BepInEx_win_x64_5.4.23.2.zip[/url]
+[*]Extract of the BepInEx zip file into the game's directory:
 [font=Courier New]<Steam Directory>\steamapps\common\Shortest Trip to Earth[/font]
- 
-[b]Important[/b]:  The .zip file [i]must[/i] be extracted to the root folder of the game.  If BepInEx was extracted correctly, the following directory will exist: [font=Courier New]<Steam Directory>\steamapps\common\Shortest Trip to Earth\BepInEx[/font].
- 
-A common issue is extracting the .zip with the .zip name.  Ex: [font=Courier New]BepInEx_win_x64_5.4.23.1/BepInEx[/font].  If this occurs, move the [font=Courier New]BepInEx[/font] sub directory to the game's root directory.
-[*]
-Run the game.  Once the main menu is shown, exit the game.
-[*]
-If the install was successful, there will now be a [font=Courier New]<Game Dir>/BepInEx/plugins[/font] directory.
+[*]Move all of the files in the new [font=Courier New]BepInEx_win_x64_5.4.23.2[/font] folder to the game's root directory.
+[*]If installed correctly, the following folders and files will exist in the game's directory:
+[/list]
+[code]
+<Game Directory>
+│   doorstop_config.ini
+│   ST Earth.exe
+├───BepInEx
+├───Data
+[/code]
+[list]
+[*]Run the game.  Once the main menu is shown, exit the game.
+[*]If the install was successful, there will now be a [font=Courier New]<Game Directory>/BepInEx/plugins[/font] directory.
 [/list]
  
 [b][size=4]Mod Install[/size][/b] 
