@@ -84,6 +84,11 @@ winhttp.dll
  
 [b][size=5]Change Log[/size][/b] 
  
+[b][size=4]1.1.0[/size][/b] 
+[list]
+[*]1.4.3 Compatible.
+[/list]
+ 
 [b][size=4]1.0.0[/size][/b] 
 [list]
 [*]Release

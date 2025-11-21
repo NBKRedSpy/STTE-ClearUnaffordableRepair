@@ -70,6 +70,9 @@ winhttp.dll
 
 # Change Log 
 
+## 1.1.0
+* 1.4.3 Compatible.
+
 ## 1.0.0
 * Release
 
